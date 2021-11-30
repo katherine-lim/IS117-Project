@@ -1,119 +1,60 @@
-article,
-aside,
-figcaption,
-figure,
-footer,
-header,
-main,
-nav,
-section {
-  display: block;
-}
-
-address,
-article,
-aside,
-blockquote,
-body,
-cite,
-div,
-dl,
-dt,
-dd,
-em,
-figcaption,
-figure,
-footer,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-header,
-html,
-img,
-li,
-main,
-nav,
-ol,
-p,
-section,
-span,
-ul {
-  background: transparent;
-  font-size: 100%;
-  margin: auto;
-  box-sizing: border-box;
-}
+/* DEVELOPER: Katherine Lim, IS117-001, Spring 2021 */
 /*background elements styling here*/
 html {
-  background: url(../images/uni.jpg);
+  background: black;
   background-size: cover;
-  z-index: -1;
 }
 
-video {
+.fullscreen-bg {
+  position: fixed;
+  top: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
-  position: absolute;
-  min-width: 100%;
-  min-height: 100%;
-  z-index: 0;
-}
-/* nav styling here */
-nav {
-  top: 0;
-  position: relative;
-  display: block;
-  margin: 0;
-  padding: 0;
-  z-index: 1;
-  width: 100%;
-  background-color: whitesmoke;
+  left: 0;
+  overflow: hidden;
+  z-index: -100;
 }
 
-.navMenu li {
+#rainStars {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  float: left;
+  height: 100%;
+}
+/* nav styling here */
+.nav-item {
   list-style-type: none;
 }
 
 li a {
-
   align-content: center;
+  display: block;
 }
 
 li a:hover {
   font-style: italic;
 }
 
-.submenu {
-  display: none;
-  float: none;
-  position: absolute;
+#monke1 {
+  float: left;
+  width: 150px;
+  height: 150px;
 }
 
-.drop-content{
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+#monke2 {
+  float: right;
+  width: 150px;
+  height: 150px;
 }
-
-#drop-menu:hover .drop-content {
-  display: block;
-}
-
 /* main styling here */
-
 .content {
   position: fixed;
   background-color: rgb(181, 233, 253);
   color: rgb(212, 93, 212);
   font-weight: bold;
   text-align: center;
-  font-size: 3em;
+  font-size: 2.5em;
   z-index: 1;
   top: 0;
   margin: 0;
@@ -140,13 +81,23 @@ li a:hover {
   color: black;
 }
 
+
+/* card styling here */
+card {
+  position: absolute;
+}
+
+.card-body {
+
+}
+
 /*footer styling here */
 footer {
   clear: left;
   position: fixed;
   bottom: 0;
   background-color: rgb(181, 233, 253);
-  color: rgb(212, 93, 212);
+  color: rgb(4, 23, 90);
   font-weight: bold;
   font-variant: small-caps;
   font-size: 0.9em;

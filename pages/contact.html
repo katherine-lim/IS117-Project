@@ -1,38 +1,69 @@
+<!-- DEVELOPER: Katherine Lim, IS117-001, Spring 2021 -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contact Me</title>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="../css/print.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
     <header>
-
-    </header>
-    <div class="content">
-        <main>
-            <nav class="navMenu">
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="games.html">Games</a></li>
-                    <li><a href="manga.html">Manga</a></li>
-                    <li><a href="reccs.html">Recommendations</a></li>
-                    <li id="drop-menu"><a href="">About</a>
-                        <ul class="subMenu">
-                            <li><a href="about.html">About Me</a></li>
-                            <li><a href="contact.html">Contact Me</a></li>
-                        </ul>
+        <div class="content">
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="games.html">Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="manga.html">Manga</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="reccs.html">Recommendations</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a  class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+                            About
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="about.html">About Me</a>
+                            <a class="dropdown-item" href="contact.html">Contact Page</a>
+                        </div>
+                    </li>
                 </ul>
-            </nav>
-        </main>
-    </div>
-    <main>
+            </div>
+        </div>
+    </header>
 
-    </main>
+    <section>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                <label for="email">Email address</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter email">
+                <small id="emailHelp" class="form-text text-muted">I'll never share your email with anyone else.</small>
+            </div>
+            <div class="form-group">
+                <label for="comments">Comments</label>
+                <textarea class="form-control" id="comments" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
 
     <footer>
         <p>This is page is protected property of Katherine Lim &copy;, Terms of Service</p>
     </footer>
 </body>
+
 </html>
