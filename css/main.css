@@ -44,226 +44,107 @@ ul {
   background: transparent;
   font-size: 100%;
   margin: auto;
-  vertical-align: baseline;
   box-sizing: border-box;
 }
-
+/*background elements styling here*/
 html {
   background: url(../images/uni.jpg);
   background-size: cover;
+  z-index: -1;
 }
 
-p {
-  text-indent: 50px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-article {
-  background-color: white;
-  width: 75%;
-  border-left: 3px solid rgb(13, 39, 95);
-  border-right: 3px solid rgb(13, 39, 95);
-  border-radius: 10px;
-}
-
-body {
-  clear: left;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+video {
+  right: 0;
+  bottom: 0;
   width: 100%;
+  position: absolute;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
 }
-
-body header img {
+/* nav styling here */
+nav {
+  top: 0;
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
   width: 100%;
-  
+  background-color: whitesmoke;
 }
 
-/*
-main - rgb(0,0,128) navy
-secondary - rgb(181, 233, 253) light cyan
-accent - rgb(212, 93, 212) pink-ish
-*/
-
-nav ul {
-  background-color: rgb(0, 0, 128);
-  line-height: 2.5em;
+.navMenu li {
+  width: 100%;
+  float: left;
   list-style-type: none;
-  padding-left: 0;
-  float: left;
-  width: 100%;
 }
 
-.horizontalNavigation li {
-  float: left;
-  width: 33.33%;
+li a {
+
+  align-content: center;
 }
 
-.horizontalNavigation a {
-  text-align: center;
+li a:hover {
+  font-style: italic;
+}
+
+.submenu {
+  display: none;
+  float: none;
+  position: absolute;
+}
+
+.drop-content{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#drop-menu:hover .drop-content {
   display: block;
 }
 
-nav a {
-  text-decoration: none;
-}
+/* main styling here */
 
-nav a:link {
-  color: white;
-  text-decoration: none;
-}
-
-nav a:visited {
-  color: pink;
-}
-
-nav a:hover {
+.content {
+  position: fixed;
+  background-color: rgb(181, 233, 253);
   color: rgb(212, 93, 212);
   font-weight: bold;
-}
-
-section {
-  clear: left;
-}
-
-h1 {
-  background-color: rgb(181, 233, 253);
   text-align: center;
   font-size: 3em;
-  border: 1px double black;
-  border-radius: 5px;
-  box-shadow: inset rgb(0, 0, 128) 10px 10px 20px;
-}
-
-h2 {
-  background-color: rgb(212, 93, 212);
-  color: rgba(255, 255, 255, 70);
-  font-weight: normal;
-  letter-spacing: 0.7em;
-  padding-left: 10px;
-  border: 1px solid black;
-  border-radius: 5px;
-  box-shadow: rgb(0, 0, 128) 10px 10px 20px;
-}
-
-section h3 {
-  background-color: rgb(0, 0, 128);
-  color: rgb(212, 93, 212);
-  font-weight: bold;
-  word-spacing: 2em;
-  padding-left: 10px;
-  padding-bottom: 10px;
-  border-radius: 5px;
-  box-shadow: inset rgb(0, 0, 128) 5px 5px 10px;
-}
-
-figure img {
-  filter: grayscale(0.7);
-  margin: 10px auto 0;
-  display: block;
-  border-radius: 20px;
-}
-
-figure img:hover {
-  filter: grayscale(0);
-}
-
-table.schedule {
-  border: 10px solid navy;
-  border-collapse: collapse;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.8em;
-  width: 100%;
-}
-
-table.schedule td {
-  vertical-align: top;
-  padding: 5px;
-}
-
-table.schedule td,
-table.schedule th {
-  border: 2px solid gray;
-}
-
-table.schedule thead {
-  color: white;
-  background-color: rgb(63, 63, 173);
-}
-
-table.schedule col.firstcol {
-  background-color: whitesmoke;
-  width: 7%;
-}
-
-table.schedule col.daycols {
-  width: 13%;
-}
-
-table.schedule thead tr {
-  height: 20px;
-}
-
-table.schedule tbody tr {
-  height: 30px;
-}
-
-table.schedule caption {
-  text-align: right;
-}
-
-.information ol li {
-  list-style-image: url(../images/flower.png);
-  width: 400px;
-}
-
-.favoriteFoods {
-  display: block;
-  list-style-type: none;
-  font-size: 12px;
-  text-align: center;
-  box-sizing: border-box;
+  z-index: 1;
+  top: 0;
+  margin: 0;
   padding: 0;
-}
-
-.favoriteFoods img {
   width: 100%;
-  border-radius: 5px;
 }
 
-section .favoriteFoods h2 {
-  background-color: rgb(103, 106, 255);
+#get_started {
+  font-size: .5em;
+}
+
+#myBtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
+#myBtn:hover {
+  background: #ddd;
   color: black;
-  letter-spacing: 0.4em;
-  font-size: 13px;
 }
 
-#box1 {
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-#box2 {
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-#box3 {
-  clear: left;
-  display: block;
-  float: left;
-  width: 50%;
-}
-
-#box4 {
-  display: block;
-  float: left;
-  width: 50%;
-}
-
+/*footer styling here */
 footer {
   clear: left;
+  position: fixed;
+  bottom: 0;
   background-color: rgb(181, 233, 253);
   color: rgb(212, 93, 212);
   font-weight: bold;
@@ -273,10 +154,12 @@ footer {
   font-family: "Palatino Linotype", "Book Antiqua", "Palatino", and serif;
   text-align: center;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
 
 footer::after {
   clear: both;
   content: "";
-  display: table;
+  display: none;
 }

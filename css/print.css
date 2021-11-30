@@ -8,10 +8,6 @@ header, nav {
     margin: 0.5in;
 }
 
-figure {
-    width: 50%;
-}
-
 body section {
     font-family: 'Courier New', 'sans-serif';
 }
@@ -31,26 +27,7 @@ h3 {
 }
 
 p {
-    font-size: 12pt;
-}
-
-img {
-    display: block;
-    margin: auto;
-    width: 65%;
-    page-break-before: always;
-}
-
-table {
-    page-break-before: always;
-}
-
-ol, ul, li {
-    list-style-type: none;
-}
-
-.information ol li {
-    list-style-image: none;
+    font-size: 14pt;
 }
 
 footer {
