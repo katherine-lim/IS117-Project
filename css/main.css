@@ -222,6 +222,66 @@ card {
   overflow: hidden;
 }
 
+.recc1 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 50vh;
+  overflow: hidden;
+}
+
+.recc2 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 100vh;
+  overflow: hidden;
+}
+
+.recc3 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 50vh;
+  overflow: hidden;
+}
+
+.recc4 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 100vh;
+  overflow: hidden;
+}
+
 .manga-img {
   width: 50vh;
   height: 50vh;
@@ -231,6 +291,25 @@ img {
   width: 50vh;
   height: 30vh;
 }
+
+.card-title {
+  margin-left: 2vh;
+  font-weight: bolder;
+}
+
+.card-text {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.btn {
+  margin-left: 18vh;
+  margin-bottom: 1vh;
+}
+
+/* contact form styling here */
+
+
 
 /*footer styling here */
 footer {
