@@ -40,13 +40,13 @@ li a:hover {
 #monke1 {
   float: left;
   width: 150px;
-  height: 150px;
+  height: 100px;
 }
 
 #monke2 {
   float: right;
   width: 150px;
-  height: 150px;
+  height: 100px;
 }
 /* main styling here */
 .content {
@@ -87,6 +87,52 @@ li a:hover {
 card {
   position: absolute;
 }
+
+.home1 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 25vh;
+  overflow: hidden;
+}
+
+.home2 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 75vh;
+  overflow: hidden;
+}
+
+.home3 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 125vh;
+  overflow: hidden;
+}
+
 .card1 {
   position: absolute;
   display: grid;
@@ -184,11 +230,6 @@ card {
 img {
   width: 50vh;
   height: 30vh;
-}
-
-.card2 {
-  position: absolute;
-
 }
 
 /*footer styling here */
