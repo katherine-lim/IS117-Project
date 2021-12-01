@@ -26,6 +26,8 @@ html {
 .nav-item {
   list-style-type: none;
   display: block;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
 li a {
@@ -35,6 +37,23 @@ li a {
 
 li a:hover {
   font-style: italic;
+}
+
+.navbar-collapse {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.navbar-nav {
+  padding-left: 0;
+}
+
+#monke {
+  float: left;
+  width: 75px;
+  height: 50px;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 #monke1 {
@@ -66,22 +85,6 @@ li a:hover {
 #get_started {
   font-size: .5em;
 }
-
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #000;
-  color: #fff;
-  cursor: pointer;
-}
-
-#myBtn:hover {
-  background: #ddd;
-  color: black;
-}
-
 
 /* game card styling here */
 card {
@@ -303,9 +306,16 @@ img {
 }
 
 .btn {
+  position: relative;
   margin-left: 18vh;
   margin-bottom: 1vh;
 }
+
+.btng {
+  position: relative;
+
+}
+
 
 /* contact form styling here */
 
