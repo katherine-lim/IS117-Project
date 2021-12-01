@@ -25,6 +25,7 @@ html {
 /* nav styling here */
 .nav-item {
   list-style-type: none;
+  display: block;
 }
 
 li a {
@@ -82,12 +83,111 @@ li a:hover {
 }
 
 
-/* card styling here */
+/* game card styling here */
 card {
   position: absolute;
 }
+.card1 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 25vh;
+  overflow: hidden;
+}
+.card2 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 75vh;
+  overflow: hidden;
+}
 
-.card-body {
+.card3 {
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 250px;
+  margin-left: 125vh;
+  overflow: hidden;
+}
+
+.cardm1{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 25vh;
+  overflow: hidden;
+}
+
+.cardm2{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left:75vh;
+  overflow: hidden;
+}
+
+.cardm3{
+  position: absolute;
+  display: grid;
+  place-items: center;
+  background: rgba(0,0,0,.6);
+  color: white;
+  align-content: center;
+  border-radius: 5px;
+  border: white;
+  width: 50vh;
+  margin-top: 200px;
+  margin-left: 125vh;
+  overflow: hidden;
+}
+
+.manga-img {
+  width: 50vh;
+  height: 50vh;
+}
+
+img {
+  width: 50vh;
+  height: 30vh;
+}
+
+.card2 {
+  position: absolute;
 
 }
 
