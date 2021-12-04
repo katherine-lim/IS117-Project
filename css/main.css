@@ -1,5 +1,7 @@
 /* DEVELOPER: Katherine Lim, IS117-001, Spring 2021 */
 /*background elements styling here*/
+@media only screen and (min-width: 768px) {
+
 html {
   background: black;
   background-size: cover;
@@ -89,6 +91,7 @@ li a:hover {
 /* game card styling here */
 card {
   position: absolute;
+  display: grid;
 }
 
 .home1 {
@@ -343,4 +346,5 @@ footer::after {
   clear: both;
   content: "";
   display: none;
+}
 }

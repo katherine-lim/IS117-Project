@@ -1,0 +1,38 @@
+/* DEVELOPER: Katherine Lim, IS117-001, Spring 2021 */
+@media only screen and (min-width: 768px) {
+    html {
+        display: grid;
+    }
+    .fullscreen-bg {
+
+    }
+    .card {
+        clear: none;
+        float: none;
+        width: auto;
+
+    }
+
+    footer {
+        clear: left;
+        position: fixed;
+        bottom: 0;
+        background-color: rgb(181, 233, 253);
+        color: rgb(4, 23, 90);
+        font-weight: bold;
+        font-variant: small-caps;
+        font-size: 0.6em;
+        line-height: 3em;
+        font-family: "Palatino Linotype", "Book Antiqua", "Palatino", and serif;
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    footer::after {
+        clear: both;
+        content: "";
+        display: none;
+    }
+}
