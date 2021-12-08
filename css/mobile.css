@@ -1,15 +1,52 @@
 /* DEVELOPER: Katherine Lim, IS117-001, Spring 2021 */
-@media only screen and (min-width: 768px) {
+@media (max-width: 768px) {
     html {
         display: grid;
+        background: url("../images/uni.jpg");
+    }
+
+    .content {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: auto;
+    }
+
+    .nav-item {
+        list-style-type: none;
+        display: block;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    li a {
+        align-content: center;
+        display: block;
+    }
+
+    .navbar-collapse {
+        margin-left: 0;
+        padding-left: 0;
+    }
+
+    .navbar-nav {
+        padding-left: 0;
     }
     .fullscreen-bg {
-
+        display: none;
     }
+
+    video {
+        display: none;
+    }
+
     .card {
         clear: none;
         float: none;
         width: auto;
+    }
+
+    .contact {
 
     }
 

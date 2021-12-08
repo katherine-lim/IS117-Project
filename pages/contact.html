@@ -6,14 +6,19 @@
     <title>Contact Page</title>
     <link rel="stylesheet" href="../css/print.css">
     <link rel="stylesheet" href="../css/mobile.css">
+    <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="../css/main.css">
 </head>
 <body>
+<div class="fullscreen-bg">
+    <video autoplay muted loop poster="../media/star_glitter.mp4" id="rainStars">
+        <source src="../media/star_glitter.mp4" type="video/mp4">
+    </video>
+</div>
     <header>
-        <div class="container-fluid">
+        <div class="container-fluid content">
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav mr-auto">
                     <img id="monke" src="../media/DancingMonkey.gif" alt="Dancing RGB Monkey">
@@ -49,8 +54,11 @@
         </div>
     </header>
 
-    <section>
-        <form>
+    <main>
+        <div class="title-header title">
+        <p>Contact Page</p>
+        </div>
+        <form class="contact">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input type="text" class="form-control" id="name" placeholder="Name">
@@ -66,7 +74,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-    </section>
+    </main>
 
 
     <footer>
