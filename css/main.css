@@ -155,7 +155,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 250px;
+  margin-top: 20vh;
   margin-left: 25vh;
   overflow: hidden;
 }
@@ -169,7 +169,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 250px;
+  margin-top: 20vh;
   margin-left: 75vh;
   overflow: hidden;
 }
@@ -184,7 +184,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 250px;
+  margin-top: 20vh;
   margin-left: 125vh;
   overflow: hidden;
 }
@@ -199,7 +199,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 200px;
+  margin-top: 10vh;
   margin-left: 25vh;
   overflow: hidden;
 }
@@ -214,7 +214,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 200px;
+  margin-top: 10vh;
   margin-left:75vh;
   overflow: hidden;
 }
@@ -229,7 +229,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 200px;
+  margin-top: 10vh;
   margin-left: 125vh;
   overflow: hidden;
 }
@@ -274,7 +274,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 200px;
+  margin-top: 10vh;
   margin-left: 50vh;
   overflow: hidden;
 }
@@ -289,7 +289,7 @@ card {
   border-radius: 5px;
   border: white;
   width: 50vh;
-  margin-top: 200px;
+  margin-top: 10vh;
   margin-left: 100vh;
   overflow: hidden;
 }
@@ -316,13 +316,16 @@ img {
 
 .btn {
   position: relative;
-  margin-left: 18vh;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 1vh;
 }
 
 .btng {
   position: relative;
-
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1vh;
 }
 
 /* title header page thing style here*/
@@ -342,7 +345,7 @@ img {
 
 /* contact form styling here */
 .contact {
-  top: 10em;
+  padding: 0 2em .5em;
 
 }
 

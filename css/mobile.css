@@ -32,6 +32,7 @@
     .navbar-nav {
         padding-left: 0;
     }
+
     .fullscreen-bg {
         display: none;
     }
@@ -47,7 +48,7 @@
     }
 
     .contact {
-
+padding: 0 1em .5em;
     }
 
     footer {
